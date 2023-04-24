@@ -1,0 +1,61 @@
+# TERMINAL - PRINCIPAIS COMANDOS
+# meu github: @mariaeco
+ 	password: pimpao2018
+
+PARA WINDOWS: ----------------------------------------------------------------------------------------------
+
+DIR - ver diretórios e pastas
+CLS - limpar screem
+DEL - deletar arquivo
+CD  - PARA ENTRAR EM PASTAS
+CD..- PARA SAIR DE PASTAS
+
+
+*Para compilar programas:
+C:
+gcc -c main.c -o main  # o nome criado pode ser qualquer um
+gcc -o main.exe main.c
+
+para rodar ./main
+
+C++: 
+g++ -0 main main.cpp
+
+# Para mudar de partição --------------------------------------------------------------------
+Basta ir para o C:\ e digitar a:, e:, d:.. a particão que vc estiver utilizando
+
+PARA LINUX: -----------------------------------------------------------------------------------------------
+ls - LISTAR ARQUIVOS E PASTAS
+clear - limpar screem
+rm - deletar arquivo
+CD   - PARA ENTRAR EM PASTAS
+CD.. - PARA SAIR DE PASTAS
+
+VIM COMANDOS:
+vim arquivo.cpp ou vim arquivo.c # abre os aquivos
+i - para editar
+:wq - para sair e salvar
+
+*Para compilar programas:
+C:
+
+
+C++:
+	g++ main.cpp -o main
+	Para rodar o arquivo: ./main
+
+
+USANDO MAKEFILE
+-------------------------------------------------------------------------------------
+Após criar o arquivo Makefile para rodar basta apenas digitar no terminal:
+	make nome_do_programa
+
+Exemplo:
+	make CadastroPessoas
+
+Então o projeto é compilado.
+Para rodar, basta:
+	./CadastroPessoas
+
+make clean para limpar os arquivos
+
